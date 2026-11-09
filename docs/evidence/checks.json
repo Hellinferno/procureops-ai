@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-27",
+  "rust": {
+    "check": "passed",
+    "tests_passed": 35,
+    "source": "Clean source copy using cached dependencies"
+  },
+  "frontend": {
+    "install": "npm ci passed from a clean source copy",
+    "lint": "passed",
+    "production_build": "passed"
+  },
+  "browser": {
+    "tests_passed": 12,
+    "checks": [
+      "Ledger loads, simulation is visible, and seed rows have no payout action",
+      "Mandate prepares an order, then explicit approval captures it",
+      "Payout acceptance stays pending until its status is checked",
+      "Budget breach and rogue vendor are blocked before payment",
+      "Treasury query filters the ledger and identifies its parser",
+      "Purchase views, policy panel and native audit inspector work",
+      "CSV export includes the current ledger and payment provenance",
+      "Mobile, tablet and compact desktop layouts contain page overflow",
+      "Mobile navigation closes and New purchase focuses the request",
+      "Phone purchase cards support search, capture, payout and inspection",
+      "No uncaught browser errors",
+      "JavaScript SDK v6 initializes and onApprove calls server capture"
+    ],
+    "payment_mode": "isolated simulation",
+    "actual_provider_proof": false
+  },
+  "video": {
+    "duration_seconds": 159.553417,
+    "dimensions": "1920x1080"
+  },
+  "limits": [
+    "Actual PayPal and AI proof are separate from fixture checks.",
+    "Public repository and YouTube URLs are owner publication steps.",
+    "Dedicated free connected judge access must be arranged before submission."
+  ]
+}

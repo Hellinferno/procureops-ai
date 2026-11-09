@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-10-27T18:03:32.883Z",
+  "environment": "PayPal Sandbox",
+  "transaction": {
+    "order_id": "ORD-4ed59f73c71b4caf9404",
+    "status": "SETTLED",
+    "amount": 78.5,
+    "capture_id": "8V126807U41618146",
+    "payout_batch_id": "XXU6Y4X7G6DP8",
+    "parser_mode": "openrouter:recursive/flint-v1.0:free"
+  },
+  "catalog": "Illustrative; no physical goods purchased",
+  "payout": "Separate disbursement to an owned test receiver",
+  "earlier_pending_capture_preserved": true,
+  "genuine_webhook_delivery_verified": false
+}

@@ -1,0 +1,10 @@
+{
+  "verified_at": "2026-10-27T18:03:32.883Z",
+  "text": "Find Mouser orders costing less than $600.",
+  "parser_mode": "openrouter:dots-studio/dots-3-note-preview:free",
+  "matching_records": 4,
+  "filter_expr": "(vendor == \"Mouser\" && total_amount < 600.00)",
+  "independently_checked": true,
+  "payment_ledger_unchanged": true,
+  "limits": "One earlier attempt returned HTTP 429 and labeled fallback. This result is the successful actual model retry."
+}
